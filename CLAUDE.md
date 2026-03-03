@@ -6,13 +6,6 @@ This repo hosts processed Pokémon box sprites that can be used as page icons in
 
 All Pokémon pages in Notion should have **big, consistent, centered** page icons—and they should not be cut off by cropping.
 
-## Current State (2026-03-03)
-
-Each game row uses sprites from its own generation's art style:
-- **Games 1-9, 13** (gen7x): [pokesprite](https://github.com/msikma/pokesprite) `pokemon-gen7x/regular/` — SM/USUM-era pixel art (68×56)
-- **Games 10-11 minus Staraptor** (gen8): pokesprite `pokemon-gen8/regular/` — SwSh-era pixel art (68×56)
-- **Game 12** (gen9/bamq): [bamq/pokemon-sprites](https://github.com/bamq/pokemon-sprites) `pokemon/regular/` — SV-era pixel art (68×56)
-
 ### Current Processing Pipeline
 
 All sprites: trim transparent padding → fixed nearest-neighbor scale per group → **centered by visual center-of-mass** on 280×280 transparent canvas → losslessly compressed with pingo (-s4).
@@ -45,19 +38,3 @@ Notion caches external icon URLs aggressively. To force refresh after pushing ne
 | pokesprite gen7x | `msikma/pokesprite`    | `pokemon-gen7x/regular/` | 68×56      | Games 1-9 (Gens 1-7) |
 | pokesprite gen8  | `msikma/pokesprite`    | `pokemon-gen8/regular/`  | 68×56      | Games 10-11 (Gen 8)  |
 | bamq             | `bamq/pokemon-sprites` | `pokemon/regular/`       | 68×56      | Game 12 (Gen 9)      |
-
-### Pokesprite Slug Mappings (Where Name ≠ Base Slug):
-
-```
-Giratina              → giratina         (base = Altered form)
-Lycanroc (Midday)     → lycanroc         (base = Midday form)
-Mimikyu               → mimikyu          (base = Disguised form)
-Aegislash             → aegislash        (base = Shield form)
-Toxtricity (Amped)    → toxtricity       (base = Amped form)
-White Kyurem          → kyurem-white
-Zygarde (10%)         → zygarde-10
-Necrozma (Dawn Wings) → necrozma-dawn
-Hisuian Typhlosion    → typhlosion-hisui
-Hisuian Zoroark       → zoroark-hisui
-Hisuian Arcanine      → arcanine-hisui
-```
