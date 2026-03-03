@@ -4,16 +4,14 @@ This repo hosts processed Pokémon box sprites that can be used as page icons in
 
 ## The Goal
 
-All Pokémon team member pages in Notion should have **big, consistent, centered** page icons—and they should not be cut off by cropping.
+All Pokémon pages in Notion should have **big, consistent, centered** page icons—and they should not be cut off by cropping.
 
 ## Current State (2026-03-03)
 
 Each game row uses sprites from its own generation's art style:
-- **Games 1-9 + Staraptor** (gen7x): [pokesprite](https://github.com/msikma/pokesprite) `pokemon-gen7x/regular/` — SM/USUM-era pixel art (68×56)
+- **Games 1-9** (gen7x): [pokesprite](https://github.com/msikma/pokesprite) `pokemon-gen7x/regular/` — SM/USUM-era pixel art (68×56)
 - **Games 10-11 minus Staraptor** (gen8): pokesprite `pokemon-gen8/regular/` — SwSh-era pixel art (68×56)
 - **Game 12** (gen9/bamq): [bamq/pokemon-sprites](https://github.com/bamq/pokemon-sprites) `pokemon/regular/` — SV-era pixel art (68×56)
-
-**Note:** Staraptor is in Game 11 (Legends Arceus) but uses the gen7x sprite source since it's a Gen 4 Pokémon — it groups with games 1-9 for processing.
 
 ### Current Processing Pipeline
 
