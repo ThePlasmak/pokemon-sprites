@@ -1,2 +1,2 @@
 # Pokemon Sprites
-Processed box sprites (128x128, centered) for Notion page icons.
+I edited these Pokémon box sprites (increasing the size and centering them) so they can be used as Notion page icons.
