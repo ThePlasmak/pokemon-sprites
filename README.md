@@ -1,4 +1,4 @@
-# Pokemon Icons for Notion
+# Pokemon Notion Icons
 
 This repo contains Pokémon box sprites that have been optimised for use as Notion page icons—their transparent pixels were trimmed, then the images were scaled up and visually centered.
 
